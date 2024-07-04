@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop</title>
+    <link
+      rel="shortcut icon"
+      href="./assests/logo-removebg-preview.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">
+        <img
+          src="./assests/logo-removebg-preview.png"
+          alt=""
+          height="100px"
+          width="100px"
+        />
+      </a>
+
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Menu</a>
+        <a href="#">Products</a>
+        <a href="#">Review</a>
+        <a href="#">Contact</a>
+        <a href="#">Blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-search" id="search-btn">
+          <span class="material-symbols-outlined"> search </span>
+        </div>
+        <div class="fa-fa-shop" id="cart">
+          <span class="material-symbols-outlined"> shopping_cart </span>
+        </div>
+        <div id="menu-btn" class="menu">
+          <span id="menu-btn1" class="material-symbols-outlined"> menu </span>
+        </div>
+      </div>
+
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box"></label>
+      </div>
+
+      <div class="cart-items-container">
+        <div class="cart-item">
+          <span>X</span>
+          <img
+            src="./assests/1_50c981b5-ac1a-42de-9f6f-2eb722705b05_1080x.webp"
+            alt=""
+          />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <h3 id="price">$11.99/--</h3>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <span>X</span>
+          <img src="./assests/FOP_30_off_on_combo_1080x.webp" alt="" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <h3 id="price">$11.99/--</h3>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <span>X</span>
+          <img
+            src="./assests/Instant_combo_pack_of_3_8d0bd00f-9902-4bec-97a3-81070c9be151_1080x.webp"
+            alt=""
+          />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <h3 id="price">$11.99/--</h3>
+          </div>
+        </div>
+
+        <div class="cart-item">
+          <span>X</span>
+          <img src="./assests/PO96_01_1080x.webp" alt="" />
+          <div class="content">
+            <h3>cart item 01</h3>
+            <h3 id="price">$11.99/--</h3>
+          </div>
+        </div>
+        <a href="#" id="btn"> Check Out Now</a>
+      </div>
+    </header>
+
+    <!-- main section starts form here/--- -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3 id="main-heading">
+          Experience the <span>Freshness</span> in Every <span>Sip!</span>
+        </h3>
+        <p>
+          Discover the finest, ethically sourced beans, expertly roasted and
+          brewed to perfection. Whether you’re here to find your next favorite
+          blend or to learn more about the world of coffee, we’re excited to
+          share our passion with you. Sip, savor, and enjoy the journey.
+        </p>
+        <a href="#">Get yours now</a>
+      </div>
+    </section>
+
+    <!-- about section starts here /--- -->
+    <div class="about" id="about">
+      <h1 id="about-us">About <span>Us</span></h1>
+      <div class="about-section">
+        <img src="./assests/img-2.jpg" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+          perspiciatis ullam suscipit ipsa aliquid ratione autem laudantium
+          magnam molestiae odit illo explicabo ut amet, quibusdam dolorum eius
+          iste provident quia.
+        </p>
+      </div>
+      <div class="about-section">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+          perspiciatis ullam suscipit ipsa aliquid ratione autem laudantium
+          magnam molestiae odit illo explicabo ut amet, quibusdam dolorum eius
+          iste provident quia.
+        </p>
+        <img src="./assests/img-1.jpg" alt="" />
+      </div>
+      <div class="about-section">
+        <img src="./assests/img-3.jpg" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+          perspiciatis ullam suscipit ipsa aliquid ratione autem laudantium
+          magnam molestiae odit illo explicabo ut amet, quibusdam dolorum eius
+          iste provident quia.
+        </p>
+      </div>
+      <div class="about-section">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+          perspiciatis ullam suscipit ipsa aliquid ratione autem laudantium
+          magnam molestiae odit illo explicabo ut amet, quibusdam dolorum eius
+          iste provident quia.
+        </p>
+        <img src="./assests/img-7.jpg" alt="" />
+      </div>
+      <div class="about-section">
+        <img src="./assests/img-5.jpg" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+          perspiciatis ullam suscipit ipsa aliquid ratione autem laudantium
+          magnam molestiae odit illo explicabo ut amet, quibusdam dolorum eius
+          iste provident quia.
+        </p>
+      </div>
+    </div>
+    <!-- menu sections starts from here -->
+    <h1 id="menu-heading">Our <span>Menu</span></h1>
+    <section id="menu-section" class="menu">
+      
+      <div id="wrapeer">
+        <img src="./assests/img-1.jpg" alt="">
+        <h3>Tasty and Healthy</h1>
+        <h3>Price : $11.99 /--</h3>
+      </div>
+
+      <div id="wrapeer">
+        <img src="./assests/img-2.jpg" alt="">
+        <h3>Tasty and Healthy</h1>
+        <h3>Price : $10.99 /--</h3>
+      </div>
+
+      <div id="wrapeer">
+        <img src="./assests/img-3.jpg" alt="">
+        <h3>Tasty and Healthy</h1>
+        <h3>Price : $12.99 /--</h3>
+      </div>
+
+      <div id="wrapeer">
+        <img src="./assests/img-4.jpg" alt="">
+        <h3>Tasty and Healthy</h1>
+        <h3>Price : $8.99 /--</h3>
+      </div>
+
+      <div id="wrapeer">
+        <img src="./assests/img-5.jpg" alt="">
+        <h3>Tasty and Healthy</h1>
+        <h3>Price : $11.69 /--</h3>
+      </div>
+
+      <div id="wrapeer">
+        <img src="./assests/img-6.jpg" alt="">
+        <h3>Tasty and Healthy</h1>
+        <h3>Price : $7.99 /--</h3>
+      </div>
+
+      <div id="wrapeer">
+        <img src="./assests/img-7.jpg" alt="">
+        <h3>Tasty and Healthy</h1>
+        <h3>Price : $10.99 /--</h3>
+      </div>
+
+      <div id="wrapeer">
+        <img src="./assests/img-8.jpg" alt="">
+        <h3>Tasty and Healthy</h1>
+        <h3>Price : $11.99 /--</h3>
+      </div>
+
+    </section>
+
+     <h1  id="menu-heading">Contact <span>Us</span> </h1>
+     <section class="contact" id="contact">
+          <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.1678555231165!2d85.27261697544009!3d25.665729877412357!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed60a4a9d5bcfd%3A0xca1c71616d9d4b2b!2sKids%20International%20Public%20School%20-%20Best%20Affiliated%20School%20in%20Bidupur%2C%20Kanchanpur%2C%20Bihar!5e0!3m2!1sen!2sin!4v1719992357408!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+          <div id="contact-form">
+            <h3 id="get-in-touch">GET IN TOUCH</h3>
+            <label for="username">Username :</label>
+            <input type="text" name="username" required> <br>
+            <label for="email">Email :</label>
+            <input type="email" name="email" required> <br>
+            <label for="password">Password :</label>
+            <input type="password" name="password" required> <br>
+            <button id="submit1">Forget password</button>
+            <button id="submit">Submit</button>
+            
+          </div>
+     </section>
+
+     <!-- bloga  section starts from here  -->
+     <h1  id="menu-heading">Review</h1>
+      
+     <section id="blogs" class="menu">
+      
+      <div id="wrapeer">
+        <img src="./assests/review1.jpeg" alt="">
+        <h3>Honey Kumar</h1>
+          <h1>⭐⭐⭐⭐ 4/5 stars</h1>
+        <h4 id="review">Absolutely love this coffee! The variety of blends available means I can try something new every time I order. The rich aroma and smooth taste make my mornings so much better. This has become my go-to place for all things coffee. Five stars!</h4>
+      </div>
+
+      <div id="wrapeer">
+        <img src="./assests/review4.jpeg" alt="">
+        <h3>Mayank Kashyap</h1>
+          <h1>⭐⭐⭐⭐⭐ 5/5 stars</h1>
+          <h4 id="review">This coffee website is a game-changer! The user-friendly interface makes it easy to browse and order. The coffee itself is out of this world—full-bodied, flavorful, and always fresh. I love the subscription service, so I never run out of my favorite brew.</h4>
+      </div>
+
+      <div id="wrapeer">
+        <img src="./assests/review3.jpeg" alt="">
+        <h3>Raushan Upadhyay</h1>
+          <h1>⭐⭐⭐⭐⭐ 5/5 stars</h1>
+          <h4 id="review">Incredible coffee and fantastic service! The flavor profiles are well-crafted, and there’s something for every taste. I appreciate the fast shipping and the careful packaging, ensuring my coffee arrives in perfect condition. This website has truly elevated my coffee experience!</h4>
+      </div>
+    </section>
+
+
+    <!-- footer starts from herer -->
+    <section class="footer">
+      <div class="footer-row">
+        <div class="footer-col">
+          <h4>Info</h4>
+          <ul class="links">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Compressions</a></li>
+            <li><a href="#">Customers</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Collection</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Review</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Blogs</a></li>
+          </ul>
+        </div>
+        <!-- <div class="footer-col">
+          <h4>Legal</h4>
+          <ul class="links">
+            <li><a href="#">Customer Agreement</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">GDPR</a></li>
+            <li><a href="#">Security</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Media Kit</a></li>
+          </ul>
+        </div> -->
+        <div class="footer-col">
+          <h4>Refresh Now</h4>
+          <p>
+            Subscribe to our Coffeer Shop for daily Offers and Updates.
+          </p>
+          <form action="#">
+            <input type="text" placeholder="Your email" required>
+            <button type="submit">REFRESH</button>
+          </form>
+          <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-github"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="app.js"></script>
+  </body>
+</html>
